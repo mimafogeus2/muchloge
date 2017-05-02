@@ -1,6 +1,6 @@
 {
-  "name": "loge",
-  "version": "1.0.0",
+  "name": "muchloge",
+  "version": "1.0.1",
   "description": "Much log. Very colors. Wow.",
   "main": "index.js",
   "scripts": {
