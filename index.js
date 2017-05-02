@@ -11,18 +11,18 @@ console.loge = function() {
   }
 
   var valueToString = function(x) {
-  	if (x.constructor === Array) {
-  		return '[' + x.toString() + ']'
-  	} else if (x.constructor === Object) {
-  		try {
-  			return JSON.stringify(x)
-  		}
-  		catch (e) {
-  			return CIRCULAR_REFERENCE_ERROR
-  		}
-  	} else {
-  		return x.toString()
-  	}
+    if (x.constructor === Array) {
+      return '[' + x.toString() + ']'
+    } else if (x.constructor === Object) {
+      try {
+        return JSON.stringify(x)
+      }
+      catch (e) {
+        return CIRCULAR_REFERENCE_ERROR
+      }
+    } else {
+      return x.toString()
+    }
   }
 
   var generateColoredArgs = function(acc, x) {
