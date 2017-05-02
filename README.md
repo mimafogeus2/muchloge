@@ -1,0 +1,2 @@
+MUCH LOG. VERY COLORS. WOW.
+![VERY DEMO GIF](readme/logedemo.gif "MUCH DEMO")
